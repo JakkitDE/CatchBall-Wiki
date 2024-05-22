@@ -77,9 +77,9 @@ and set `onlyUseOnIslandIfAllowed` of `SuperiorSkyBlock2`to `true`.
 
 ## API
 ```
-#Boolean <- CatchballAPI.isFangball(ItemStack itemStack);
-#Boolean <- CatchballAPI.isSingleUsableFangball(ItemStack itemStack);
-#Boolean <- CatchballAPI.isMultiUsableFangball(ItemStack itemStack);
+#Boolean <- CatchballAPI.isCatchBall(ItemStack itemStack);
+#Boolean <- CatchballAPI.isSingleUsableCatchBall(ItemStack itemStack);
+#Boolean <- CatchballAPI.isMultiUsableCatchBall(ItemStack itemStack);
 #Boolean <- CatchballAPI.isFilled(ItemStack itemStack);
 #EntityType <- CatchballAPI.getEntityType(ItemStack itemStack);
 ```
