@@ -15,16 +15,16 @@ Java 21+
 
 ## Permissions
 1) Permission `catchball.use`
- Description `Allows a player to use a fangball`
+ Description `Allows a player to use a catchball`
 
-2) Permission `catchball.use.mob.<entityType>`, `fangball.use.mob.*`
+2) Permission `catchball.use.mob.<entityType>`, `catchball.use.mob.*`
  Description `Allows a player to use on mobs, specific or all.`
 
 3) Permission `catchball.use.world.bypass`
  Description `Allows a player bypassing world whitelist`
 
 4) Permission `catchball.use.bypass.insideisland`
- Description `Allows a player bypassing the rule not to be allowed using fangballs outside an island`
+ Description `Allows a player bypassing the rule not to be allowed using catchballs outside an island`
  
 ## Hooks
 ### SuperiorSkyblock2
