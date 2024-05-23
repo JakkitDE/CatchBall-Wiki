@@ -83,3 +83,4 @@ and set `onlyUseOnIslandIfAllowed` of `SuperiorSkyBlock2`to `true`.
 #Boolean <- CatchballAPI.isFilled(ItemStack itemStack);
 #EntityType <- CatchballAPI.getEntityType(ItemStack itemStack);
 ```
+Yet, you have to include the .jar file manually in order to work with its api. Soon we will provide a nexus solution to able people just to import the api by maven or gradle. 
