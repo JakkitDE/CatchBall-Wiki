@@ -100,6 +100,6 @@ PlayerReleasingMobEvent#isCancelled() returns if the event currently is cancelle
 
 - PlayerReleasedMobEvent IS NOT cancellable.
 PlayerReleasedMobEvent#getPlayer() returns the player which released an entity.
-PlayerReleasedMobEvent#getEntity() return the entity which the player released.
+PlayerReleasedMobEvent#getEntity() returns the entity which the player released.
 ```
 
