@@ -84,16 +84,22 @@ Yet, you have to include the .jar file manually in order to work with its api. S
 #Boolean <- CatchballAPI.isFilled(ItemStack itemStack);
 #EntityType <- CatchballAPI.getEntityType(ItemStack itemStack);
 ```
-If a player is catching a mob, the PlayerCatchingMobEvent is being called, if a player is releasing a mob, the PlayerReleasingMobEvent is being called. Both you can access.
+If a player is catching a mob, the PlayerCatchingMobEvent is being called, if a player is releasing a mob, the PlayerReleasingMobEvent is being called and if a player released a mob, the PlayerReleasedMobEvent is being called. You can access all three events.
 ```
+- PlayerCatchingMobEvent IS cancellable.
 PlayerCatchingMobEvent#getPlayer() returns the player which is catching an entity.
 PlayerCatchingMobEvent#getEntity() returns the entity the player is catching.
 PlayerCatchingMobEvent#setCancelled(Boolean boolean) sets whether the event is cancelled or not.
 PlayerCatchingMobEvent#isCancelled() returns if the event currently is cancelled or not.
 
+- PlayerReleasingMobEvent IS cancellable.
 PlayerReleasingMobEvent#getPlayer() returns the player which is releasing an entity.
 PlayerReleasingMobEvent#getEntity() returns the EntityType of the entity the player is releasing.
 PlayerReleasingMobEvent#setCancelled(Boolean boolean) sets whether the event is cancelled or not.
 PlayerReleasingMobEvent#isCancelled() returns if the event currently is cancelled or not.
+
+- PlayerReleasedMobEvent IS NOT cancellable.
+PlayerReleasedMobEvent#getPlayer() returns the player which released an entity.
+PlayerReleasedMobEvent#getEntity() return the entity which the player released.
 ```
 
