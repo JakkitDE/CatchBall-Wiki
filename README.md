@@ -95,6 +95,7 @@ PlayerCatchingMobEvent#isCancelled() returns if the event currently is cancelled
 - PlayerReleasingMobEvent IS cancellable.
 PlayerReleasingMobEvent#getPlayer() returns the player which is releasing an entity.
 PlayerReleasingMobEvent#getEntity() returns the EntityType of the entity the player is releasing.
+PlayerReleasingMobEvent#getLocation() returns the exact InteractionPoint where the entity is going to spawn.
 PlayerReleasingMobEvent#setCancelled(Boolean boolean) sets whether the event is cancelled or not.
 PlayerReleasingMobEvent#isCancelled() returns if the event currently is cancelled or not.
 
