@@ -42,18 +42,18 @@ and set `enabled` of `SuperiorSkyBlock2`to `true`.
     display-menu: true
     permission-enabled:
       type: MAGMA_CREAM
-      name: '&6Fangball Use'
+      name: '&6Catchball Use'
       lore:
         - '&7Access to use catchballs on island.'
         - '&7Currently &aENABLED&7.'
     permission-disabled:
-      name: '&6Fangball Use'
+      name: '&6Catchball Use'
       type: MAGMA_CREAM
       lore:
         - '&7Access to use catchballs on island.'
         - '&7Currently &cDISABLED&7.'
     role-permission:
-      name: '&6Fangball Use'
+      name: '&6Catchball Use'
       type: MAGMA_CREAM
       lore:
         - '&7Access to use catchballs on island.'
