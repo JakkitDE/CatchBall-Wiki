@@ -26,7 +26,7 @@ Java 21+
 4) Permission `catchball.use.bypass.insideisland`
  Description `Allows a player bypassing the rule not to be allowed using catchballs outside an island`
  
-## Hooks
+## Hooks (Premium variant, only)
 ### SuperiorSkyblock2
 This plugin supports hooking into SuperiorSkyblock2 in order to depend a users action on configured IslandPrivileges. To do so, follow the instruction:
 
